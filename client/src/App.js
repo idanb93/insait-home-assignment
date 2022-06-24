@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
+import Filters from './components/Filters/Filters';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
 import memories from './images/bank.png';
@@ -31,6 +32,7 @@ const App = () => {
             </Grid>
             <Grid item xs={12} sm={4}>
               <Form currentId={currentId} setCurrentId={setCurrentId} />
+              <Filters currentId={currentId}/>
             </Grid>
           </Grid>
         </Container>
