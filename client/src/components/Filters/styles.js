@@ -35,10 +35,7 @@ export default makeStyles((theme) => ({
     left: '35%',
   },
   balance: {
-    marginBottom: '5vh',
-  },
-  balanceSlider: {
-    marginBottom: '3vh',
+    marginBottom: '2vh',
   },
   mortage: {
     marginTop: '3vh',
@@ -46,7 +43,6 @@ export default makeStyles((theme) => ({
   select: {
     height: '3vh',
     width: '8vw',
-    marginBottom: '3vh',
   },
   creditCards: {
     marginTop: '3vh',
